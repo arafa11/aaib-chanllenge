@@ -1,0 +1,29 @@
+section.main {
+  // min-height: 30em;
+  background-color: $white;
+  .notFoundPage {
+    margin-top: 3em;
+    p {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  .reportsPage {
+    .report-row {
+      border: 1px solid $gray-700;
+      padding: .5em;
+    }
+    p {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    button.action-button {
+      float: right;
+      clear: both;
+    }
+  }
+  button.action-button {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
